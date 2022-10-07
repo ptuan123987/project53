@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a:link,
+a:active,
+a:visited {
+    text-decoration: none;
+    color: rgb(132, 129, 129);
+    font-size: 15px;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000;
+}
+
+footer {
+    margin: 0px auto;
+    width: 1300px;
+}
+
+footer .inner {
+    padding: 49px;
+    display: flex;
+    background-color: #000;
+    color: rgb(132, 129, 129);
+    justify-content: space-between;
+}
+
+footer .inner .new-letter {
+    flex-grow: 1.5;
+}
+
+footer .inner .new-letter p {
+    padding-bottom: 36px;
+    font-size: 15px;
+}
+
+footer .inner .new-letter form>* {
+    display: inline-block;
+}
+
+footer .inner .new-letter form input[type="email"] {
+    box-sizing: border-box;
+    background-color: rgb(21, 21, 21);
+    color: rgb(132, 129, 129);
+    padding: 13px;
+    width: 250px;
+    font-size: 14px;
+    border: 1px solid rgb(10, 10, 10);
+}
+
+footer .inner .new-letter form button {
+    background-color: #01bacf;
+    border: 1px solid #01bacf;
+    color: #fff;
+    cursor: pointer;
+    height: 42px;
+    min-width: 50px;
+    padding: 11px 10px;
+    text-align: center;
+    transition: 0.3s background-color;
+    border-radius: 2px;
+}
+
+footer .inner .new-letter form button:hover {
+    background-color: gray;
+    border: 1px solid gray;
+}
+
+footer .inner .links-list {
+    flex-grow: 1;
+}
+
+footer .inner .links-list li {
+    padding-bottom: 9px;
+}
+
+footer .footer-end {
+    margin: 0px auto;
+    background-color: rgb(21, 21, 21);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 49px;
+}
+
+footer .footer-end p {
+    color: rgb(132, 129, 129);
+    font-size: 15px;
+    align-items: center;
+}
